@@ -282,12 +282,14 @@
 
 * Install a new project template
 
-    `dotnet new --install [dotnet-template-name]`
-
+    `dotnet new install [dotnet-template-name]`
+    <br>
+    `dotnet new install identityserver4.templates`
 * Remove a project template
 
-    `dotnet new --uninstall [dotnet-template-name]`
-
+    `dotnet new uninstall [dotnet-template-name]`
+    <br>
+    `dotnet new uninstall identityserver4.templates`
 
 ## Nuget
 
